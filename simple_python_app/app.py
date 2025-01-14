@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return 'Test 2 Commencing...'
+    return 'We are still winning in these tests'
 
 if __name__ == '__main__':
     app.run()
